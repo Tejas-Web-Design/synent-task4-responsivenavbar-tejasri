@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite - Food Delivery App</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style3.css">
+
+</head>
+
+<body>
+
+<!-- THEME TOGGLE -->
+
+<div class="theme-toggle" id="themeToggle">
+    <i class="fa-solid fa-moon"></i>
+</div>
+
+<!-- FLOATING FOODS -->
+
+<div class="floating-food burger">🍔</div>
+<div class="floating-food pizza">🍕</div>
+<div class="floating-food fries">🍟</div>
+<div class="floating-food drink">🥤</div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+
+<a href="#" class="logo">
+    🍔 QuickBite
+</a>
+
+<ul class="nav-links" id="navLinks">
+
+    <li><a href="#home">Home</a></li>
+
+    <li><a href="#restaurants">Restaurants</a></li>
+
+    <li><a href="#dishes">Dishes</a></li>
+
+    <li><a href="#offers">Offers</a></li>
+
+    <li><a href="#tracker">Tracker</a></li>
+
+    <li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-actions">
+
+    <a href="#dishes" class="nav-btn">
+        Order Now
+    </a>
+
+    <div class="hamburger" id="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+</div>
+
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+
+<div class="hero-content">
+
+    <span class="badge">
+        🔥 30% OFF First Order
+    </span>
+
+    <h1>
+        Delicious Food Delivered
+        To Your Doorstep
+    </h1>
+
+    <p>
+        Order from your favorite restaurants and get
+        hot meals delivered within minutes.
+    </p>
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+        <input
+        type="text"
+        placeholder="Search restaurants or dishes">
+
+        <button>
+            Search
+        </button>
+
+    </div>
+
+    <div class="hero-buttons">
+
+        <a href="#" class="hero-btn">
+            Order Food
+        </a>
+
+        <a href="#" class="hero-outline">
+            View Menu
+        </a>
+
+    </div>
+
+</div>
+
+<div class="hero-image">
+
+    <img
+    src="images/food.png"
+    alt="Food Delivery">
+
+</div>
+
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+
+<div class="stat-card">
+
+    <h2>10K+</h2>
+
+    <p>Orders Delivered</p>
+
+</div>
+
+<div class="stat-card">
+
+    <h2>500+</h2>
+
+    <p>Restaurants</p>
+
+</div>
+
+<div class="stat-card">
+
+    <h2>4.9★</h2>
+
+    <p>Customer Rating</p>
+
+</div>
+
+<div class="stat-card">
+
+    <h2>24/7</h2>
+
+    <p>Support</p>
+
+</div>
+
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="categories">
+
+
+<h2 class="section-title">
+    Popular Categories
+</h2>
+
+<div class="category-container">
+
+    <div class="category-card">
+        🍔
+        <span>Burgers</span>
+    </div>
+
+    <div class="category-card">
+        🍕
+        <span>Pizza</span>
+    </div>
+
+    <div class="category-card">
+        🍜
+        <span>Noodles</span>
+    </div>
+
+    <div class="category-card">
+        🍟
+        <span>Fries</span>
+    </div>
+
+    <div class="category-card">
+        🥤
+        <span>Drinks</span>
+    </div>
+
+    <div class="category-card">
+        🍰
+        <span>Desserts</span>
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- RESTAURANTS -->
+
+<section class="restaurants" id="restaurants">
+
+
+<h2 class="section-title">
+    Top Restaurants
+</h2>
+
+<div class="restaurant-grid">
+
+    <div class="restaurant-card">
+
+        <img src="images/burger.png" alt="Burger House">
+
+        <div class="restaurant-content">
+
+            <h3>Burger House</h3>
+
+            <div class="rating">
+                ⭐ 4.8
+            </div>
+
+            <p>25 mins • Burgers</p>
+
+        </div>
+
+    </div>
+
+    <div class="restaurant-card">
+
+        <img src="images/pizza.png" alt="Pizza World">
+
+        <div class="restaurant-content">
+
+            <h3>Pizza World</h3>
+
+            <div class="rating">
+                ⭐ 4.9
+            </div>
+
+            <p>20 mins • Pizza</p>
+
+        </div>
+
+    </div>
+
+    <div class="restaurant-card">
+
+        <img src="images/noodles.png" alt="Spice Hub">
+
+        <div class="restaurant-content">
+
+            <h3>Spice Hub</h3>
+
+            <div class="rating">
+                ⭐ 4.7
+            </div>
+
+            <p>30 mins • Asian Food</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</section>
+<!-- POPULAR DISHES -->
+
+<section class="popular-dishes" id="dishes">
+
+<h2 class="section-title">
+    Popular Dishes
+</h2>
+
+<div class="dish-grid">
+
+    <div class="dish-card">
+
+        <img
+        src="images/burger2.png"
+        alt="Cheese Burger">
+
+        <div class="dish-content">
+
+            <h3>Cheese Burger</h3>
+
+            <p>
+                Fresh grilled burger with cheese
+                and crispy vegetables.
+            </p>
+
+            <div class="dish-footer">
+
+                <span>₹199</span>
+
+                <button>
+                    Add
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dish-card">
+
+        <img
+        src="images/pizza2.png"
+        alt="Veg Pizza">
+
+        <div class="dish-content">
+
+            <h3>Veg Pizza</h3>
+
+            <p>
+                Loaded with premium toppings
+                and mozzarella cheese.
+            </p>
+
+            <div class="dish-footer">
+
+                <span>₹299</span>
+
+                <button>
+                    Add
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dish-card">
+
+        <img
+        src="images/noodles2.png"
+        alt="Noodles">
+
+        <div class="dish-content">
+
+            <h3>Spicy Noodles</h3>
+
+            <p>
+                Authentic Asian noodles with
+                delicious flavors.
+            </p>
+
+            <div class="dish-footer">
+
+                <span>₹249</span>
+
+                <button>
+                    Add
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- SPECIAL OFFERS -->
+
+<section class="offers" id="offers">
+
+<h2 class="section-title">
+    Special Offers
+</h2>
+
+<div class="offer-grid">
+
+    <div class="offer-card">
+
+        <h3>
+            50% OFF
+        </h3>
+
+        <p>
+            First Order Discount
+        </p>
+
+    </div>
+
+    <div class="offer-card">
+
+        <h3>
+            Free Delivery
+        </h3>
+
+        <p>
+            Orders Above ₹499
+        </p>
+
+    </div>
+
+    <div class="offer-card">
+
+        <h3>
+            Buy 1 Get 1
+        </h3>
+
+        <p>
+            Weekend Pizza Deal
+        </p>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- DELIVERY TRACKER -->
+
+<section class="tracker-section" id="tracker">
+
+
+<h2 class="section-title">
+    Track Your Delivery
+</h2>
+
+<div class="tracker">
+
+    <div class="step active">
+
+        <div class="circle">
+            ✓
+        </div>
+
+        <h4>
+            Order Placed
+        </h4>
+
+    </div>
+
+    <div class="step active">
+
+        <div class="circle">
+            ✓
+        </div>
+
+        <h4>
+            Preparing
+        </h4>
+
+    </div>
+
+    <div class="step">
+
+        <div class="circle">
+            🚴
+        </div>
+
+        <h4>
+            Out For Delivery
+        </h4>
+
+    </div>
+
+    <div class="step">
+
+        <div class="circle">
+            🍔
+        </div>
+
+        <h4>
+            Delivered
+        </h4>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+<h2 class="section-title">
+    What Customers Say
+</h2>
+
+<div class="testimonial-grid">
+
+    <div class="testimonial-card">
+
+        <img
+        src="images/customer1.png"
+        alt="Customer">
+
+        <h3>
+            Rahul Sharma
+        </h3>
+
+        <p>
+            "Amazing service and super fast delivery.
+            Food arrived hot and fresh."
+        </p>
+
+        <div>
+            ⭐⭐⭐⭐⭐
+        </div>
+
+    </div>
+
+    <div class="testimonial-card">
+
+        <img
+        src="images/customer2.png"
+        alt="Customer">
+
+        <h3>
+            Priya Reddy
+        </h3>
+
+        <p>
+            "Best food delivery experience.
+            Easy ordering and great offers."
+        </p>
+
+        <div>
+            ⭐⭐⭐⭐⭐
+        </div>
+
+    </div>
+
+    <div class="testimonial-card">
+
+        <img
+        src="images/customer3.png"
+        alt="Customer">
+
+        <h3>
+            Arjun Kumar
+        </h3>
+
+        <p>
+            "The UI is clean and delivery tracking
+            works perfectly."
+        </p>
+
+        <div>
+            ⭐⭐⭐⭐⭐
+        </div>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- APP DOWNLOAD -->
+
+<section class="app-section">
+
+
+<div class="app-content">
+
+    <h2>
+        Download The QuickBite App
+    </h2>
+
+    <p>
+        Order food anytime and anywhere.
+        Get exclusive mobile-only offers.
+    </p>
+
+    <div class="store-buttons">
+
+        <a href="#" class="store-btn">
+
+            <i class="fa-brands fa-google-play"></i>
+
+            Google Play
+
+        </a>
+
+        <a href="#" class="store-btn">
+
+            <i class="fa-brands fa-apple"></i>
+
+            App Store
+
+        </a>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">
+    Contact Us
+</h2>
+
+<div class="contact-container">
+
+    <div class="contact-card">
+
+        <i class="fa-solid fa-envelope"></i>
+
+        <h3>Email</h3>
+
+        <p>
+            support@quickbite.com
+        </p>
+
+    </div>
+
+    <div class="contact-card">
+
+        <i class="fa-solid fa-phone"></i>
+
+        <h3>Phone</h3>
+
+        <p>
+            +91 9876543210
+        </p>
+
+    </div>
+
+    <div class="contact-card">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+        <h3>Location</h3>
+
+        <p>
+            Hyderabad, India
+        </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+
+<div class="footer-container">
+
+    <div class="footer-about">
+
+        <h2>
+            🍔 QuickBite
+        </h2>
+
+        <p>
+            Fast, fresh and reliable food
+            delivery at your doorstep.
+        </p>
+
+    </div>
+
+    <div class="footer-links">
+
+        <h3>
+            Quick Links
+        </h3>
+
+        <a href="#home">Home</a>
+
+        <a href="#restaurants">Restaurants</a>
+
+        <a href="#dishes">Dishes</a>
+
+        <a href="#offers">Offers</a>
+
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="footer-social">
+
+        <h3>
+            Follow Us
+        </h3>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="copyright">
+
+    © 2026 QuickBite. All Rights Reserved.
+
+</div>
+
+
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
