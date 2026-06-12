@@ -4,6 +4,12 @@ A modern and responsive navigation bar built using HTML, CSS, and JavaScript as 
 
 The project demonstrates a fully responsive navigation system integrated into a food delivery application interface called **QuickBite**.
 
+<img width="1887" height="888" alt="Screenshot 2026-06-12 122447" src="https://github.com/user-attachments/assets/f1963bf1-9418-4eee-a9cc-c7a8a12e0b1d" />
+<img width="1896" height="868" alt="Screenshot 2026-06-12 122502" src="https://github.com/user-attachments/assets/683f0c44-ffd9-4219-a679-b9d7c54fe9e1" />
+<img width="1882" height="873" alt="Screenshot 2026-06-12 122516" src="https://github.com/user-attachments/assets/834937a0-ffcc-4369-9460-cb932b0035c4" />
+<img width="1902" height="898" alt="Screenshot 2026-06-12 122604" src="https://github.com/user-attachments/assets/56e87885-7d4e-4f36-aa4c-28b43e7ac7b5" />
+
+
 ---
 
 ## 📌 Objective
@@ -57,7 +63,7 @@ Create a responsive navigation bar that works seamlessly across desktop, tablet,
 ---
 
 ## Live Preview
-
+https://responsive-navbar-task.netlify.app/
 
 ---
 
