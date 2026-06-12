@@ -126,7 +126,7 @@ The navigation bar automatically adapts to different screen sizes:
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Tejas-Web-Design/synent-task4-responsivenavbar-tejasri
 ```
 
 2. Open project folder
@@ -174,9 +174,7 @@ Through this project, I learned:
 ## 👨‍💻 Author
 
 **Tejasri Konidena**
-
-Aspiring Full Stack Developer passionate about building responsive and user-friendly web applications.
-
+#Web Development Intern -------@Synent Technologies Intern
 ---
 
 ⭐ If you like this project, consider giving it a star.
